@@ -16,6 +16,7 @@
 	<table class="styled-table">
 		<thead>	
 			<tr>
+				<th>방구</th>
 				<th>학생번호</th>
 				<th>학생이름</th>
 				<th>아이디</th>
