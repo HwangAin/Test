@@ -1,0 +1,9 @@
+diff a/MERGE/A.txt b/MERGE/A.txt	(rejected hunks)
+@@ -4,6 +4,7 @@
+ <<<<<<< HEAD
+ C
+ DD
++=======
+ CC
+ D
+ >>>>>>> 246b98c57fd4cdef701503f56927bbde64d54497
