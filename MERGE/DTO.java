@@ -1,9 +1,8 @@
-public class ateamDTO {
+public class DTO {
 	private int salary;
 	private int days;
 	
-	
-	public ateamDTO(int salary, int days) {
+	public DTO(int salary, int days) {
 		this.salary = salary;
 		this.days = days;
 	}
