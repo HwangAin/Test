@@ -22,6 +22,10 @@
 				<th>아이디1</th>
 				<th>아이디2</th>
 				<th>아이디3</th>
+				<th>삭제하기</th>
+				<th>학생번호</th>
+				<th>학생이름</th>
+				<th>아이디</th>
 				<th>성</th>
 				<th>이름</th>
 				<th>요청</th>
@@ -42,6 +46,7 @@
 					<input type="hidden" name="student_no" value="<%=list.get(i).getStudent_no()%>">
 					<input type="hidden" name="user_id" value="<%=list.get(i).getUser_id()%>">
 					<input type="submit" value="detail.st로 요청">
+					<input type="submit" value="가인"/>
 				</form>
 			</tr>
 		<%}%>
