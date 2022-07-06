@@ -1,0 +1,6 @@
+java.lang.ClassCastException
+select 문에 sql 문을 수정하지 않아 발생한 오류였다.
+  <select id="listselect" resultType="customer.CustomerDTO">
+	select 10 as num1 from dual <= sql 쿼리를  
+	SELECT * FROM CUSTOMER <= 이렇게 바꾸어줬다.
+  </select>

@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		http://localhost/imo/Ex02_ResLogin 이라는 맵핑을 입력받으면 
+		Ex02_ResLogin.jsp까지 이동하는 서블릿을 만든다.
+	 -->
+	 <form action="tj"></form>
+	 <h2>ResLogin</h2>
+	 <h1>오늘도 왔도!!</h1>
+	 <!-- ★★ 중요!! 포워드(파라메타나 어떤 넘겨줄 값을 보내줄수가 있음 다음페이지로) 다음페이지로 갈때 DB에서 값을 가지고 가야하는 로직이 많다
+	 리스폰스(어떠한 파라메터도 못보내고 강제로 페이지를 전환함) 파라메터 필요없이 강제로 갈때 -->
+	 <%
+	 if (request.getParameter("id")==null&&request.getParameter("pw")==null) {
+		 response.sendRedirect("Ex02_Failed.jsp");
+		 
+	 }else if(request.getParameter("id").equals("admin")&&request.getParameter("pw").equals("admin1234")) {
+		response.sendRedirect("Ex02_Success.jsp");
+	 }
+	 
+	 %>
+	 <%
+	if(request.getParameter("id")==null&&request.getParameter("pw")==null
+	||request.getParameter("id").equals("admin")&&request.getParameter("pw").equals("admin1234")) {
+		response.sendRedirect("Ex02_Success.jsp");
+	 } else {
+		 response.sendRedirect("Ex02_Failed.jsp");
+	 }
+	 
+	 %>
+	 
+</body>
+</html>

@@ -1,0 +1,48 @@
+<%@page import="customer.CustomerDTO"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%@ include file="/include/header.jsp" %>
+	<h1>사원 정보를 보여줍니다.</h1>
+	<table class="styled-table">
+		<thead>	
+			<tr>
+				<th>사원 ID</th>
+				<th>사원 이름</th>
+				<th>성별</th>
+				<th>email</th>
+				<th>연락처</th>
+			</tr>
+		</thead>
+		<tbody>
+			<%List<CustomerDTO> list = List<CustomerDTO>; %><!-- Object 타입이기때문에 담겨있는 데이터가 어떤 타입인지 모르기때문에 캐스팅을 해준다. -->
+			<%for(int i = 0; i < list.size(); i++) {%>
+			<tr>
+				<td><a href="detail.st?student_no=<%= %>&user_id=<%=list.get(i).getUser_id()%>"><%=list.get(i).getStudent_no() %></a></td>
+										<!-- ▲▲▲▲ 상단은 url에 get방식으로 처리해주고 있다. -->
+				<td><a href="detail.st"><%=%></a></td>
+				<td><%=%></td>
+				<td><%=%></td>
+				<td><%=%></td>
+				<td>
+				<form action="detail.st" method="get">
+					<input type="hidden" name="student_no" value="<%=list.get(i).getStudent_no()%>">
+					<input type="hidden" name="user_id" value="<%=list.get(i).getUser_id()%>">
+					<input type="submit" value="detail.st로 요청">
+				</form>
+			</tr>
+		<%}%>
+		</tbody>
+	</table>
+	
+	
+	<%@ include file="/include/footer.jsp" %> 
+</body>
+</html>
