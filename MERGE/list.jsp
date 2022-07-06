@@ -1,5 +1,18 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <%@page import="customer.CustomerDTO"%>
 <%@page import="java.util.List"%>
+=======
+>>>>>>> origin/jsy
+=======
+<%@page import="customer.CustomerDTO"%>
+<%@page import="java.util.List"%>
+>>>>>>> hai
+=======
+<%@page import="customer.CustomerDTO"%>
+<%@page import="java.util.List"%>
+>>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
@@ -10,6 +23,13 @@
 <title>Insert title here</title>
 </head>
 <body>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> hai
+=======
+>>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
 	<%@ include file="/include/header.jsp"%>
 		<h1>고객관리 모듈</h1>
 
@@ -44,6 +64,14 @@
 		</tbody>
 	</table>
 	<%@ include file="/include/footer.jsp"%>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/jsy
+=======
+>>>>>>> hai
+=======
+>>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
 	<h1> JSTL 사용</h1>
 	<p>JSP 개발을 좀더 편하고 단순화하기 위한 태그 library(JSP Standard Tag Library)</p>
 	<h3>CORE(jstl/core)</h3>
