@@ -1,0 +1,23 @@
+<%@page import="customer.CustomerDTO"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	tbody td {
+	text-align:  center;
+	}
+
+</style>
+</head>
+<body>
+	<%@ include file="/include/header.jsp" %>
+	<h1>고객 정보(JSTL)</h1>
+	
+	<%@ include file="/include/footer.jsp" %> 
+</body>
+</html>

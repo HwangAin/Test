@@ -1,0 +1,12 @@
+package customer;
+
+public class CustomerDAO {
+	// JDBC api(lib) 사용 -> 
+	
+	//Mybatis ↑ (이용, 관리, 가독성 등등의 장점을 추가한 API)
+	//환경설정이 좀 까다롭다는 단점이 있음
+	// XML 파일로 환경설정, String sql x => xml mapper라는 쿼리의 집합 파일을 만들어서 관리 ※
+	// 자바 파일이나 여러가지 방식으로 환경설정을 할 수가 있으나 제일 간단한 방법은 xml(선생님 생각)
+	
+	
+}//c

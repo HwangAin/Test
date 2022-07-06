@@ -1,0 +1,12 @@
+Controller에서 
+RequestDispatcher rd; <= 전역변수로 전언해줄수도 , 메소드 안에 지역변수로 선언해줄수도 있다.
+service (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+Request 가 getRequestDispatcher로 경로(getServletInfo())를 지정해주자
+
+※ jsp로 보낼때 
+ Request에 setAttribute("name",value )로 포장하고
+ rd = req.getRequestDispatcher("Student/list.jsp"); 실어서 
+ rd.forward(req, resp); rd를 포워드 한다.
+ 
+ jsp파일에서 => cnffurgkfEo 
+ 

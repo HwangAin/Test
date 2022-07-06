@@ -1,0 +1,52 @@
+package controller;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("*.te")
+public class AllMapping extends HttpServlet {
+	//doGet, doPost 어떤 요청이 들어오는지에 따라서 로직을 분리해두는 것은
+	// 보안상 좋으나 코딩에 불편함이 많음
+	
+	// Webapp에서 어떤 경로를 내가 폴더로 만들고 Servlet에 요청을 하려고 하면 헷갈림
+	// ../ , / , ../../ ==x 불편함
+	// *<-전체를 맵핑을 받을수있게도 할수가있음. Servlet을 Controller(Spring)와 유사한 구조로 만들기
+	
+	// 전체를 입력받겠다.
+	// .구분자
+	// adodofjofjof.구분자 ↑ , .do ( Servlet ),
+	// 고객관리(Customer) *.cu
+	// Hr(계정) *.hr
+	// Student *.st
+	
+	// 모든 요청을 받는 Service라는 메소드를 활용한다.
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.println("여기 서비스까지 왔도!!");
+		
+		
+		RequestDispatcher rd = req.getRequestDispatcher("Ex02_Response/Ex03_ResHeader.jsp");
+		
+//		String uri = req.getRequestURI();
+//		String servletPath = req.getServletPath();
+//		System.out.println(uri);
+//		System.out.println(servletPath);
+		
+		
+		if (req.getRequestURI() == null && req.getServletPath() == null) {
+			
+		}else if (req.getRequestURI().equals("/header.te") || req.getServletPath().equals("/header.te")) {
+		
+			rd.forward(req, resp);
+		}
+		
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>여기왔지</h1>
+	<p>JSP 개발을 좀 더 편하고 단순화 하기 위한 태그 library(JSP Standard Tag Library)</p>
+	<!-- String Boot(HTML) 타임리프, String Legacy(JSP) JSTL-->
+</body>
+</html>

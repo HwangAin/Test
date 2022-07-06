@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		http://localhost/imo/Ex02_ResLogin 이라는 맵핑을 입력받으면 
+		Ex02_ResLogin.jsp까지 이동하는 서블릿을 만든다.
+	 -->
+	 <form action="tj"></form>
+	 <h2>ResLogin</h2>
+	 <h1>오늘도 왔도!!!</h1>
+</body>
+</html>
