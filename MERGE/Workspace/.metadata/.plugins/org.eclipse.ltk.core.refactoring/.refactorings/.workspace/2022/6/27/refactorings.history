@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;03.OmplicitObject&apos; to &apos;03.ImplicitObject&apos;" description="Rename resource &apos;03.OmplicitObject&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/03.OmplicitObject" name="03.ImplicitObject" stamp="1656308929575" updateReferences="true"/>
-</session>
