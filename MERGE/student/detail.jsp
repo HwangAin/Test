@@ -1,6 +1,7 @@
 <%@page import="student.StudentDTO"%>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <%@page import="java.util.ArrayList"%>
@@ -10,6 +11,8 @@
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+>>>>>>> 29b63a6 (student 폴더 올려보기)
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -19,6 +22,7 @@
 <title>Insert title here</title>
 <style type="text/css">
 	td{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -119,6 +123,8 @@
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+>>>>>>> 29b63a6 (student 폴더 올려보기)
 		background: #aaa;
 		
 	}
@@ -188,17 +194,21 @@
 			}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2ba68a5dc05d8ed88cee2693d9bac3a90206d24c
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+>>>>>>> 29b63a6 (student 폴더 올려보기)
 		}
 	</script>
 	
 	<%@ include file="/include/footer.jsp"%>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
 <<<<<<< HEAD
@@ -209,5 +219,8 @@
 =======
 	
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+	
+>>>>>>> 29b63a6 (student 폴더 올려보기)
 </body>
 </html>
