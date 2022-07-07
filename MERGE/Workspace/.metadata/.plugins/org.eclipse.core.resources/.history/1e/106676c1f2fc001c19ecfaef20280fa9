@@ -1,6 +1,0 @@
-package customer;
-
-public class CustomerDTO {
-	private String name, gender, email, phone;
-	private int id;
-}
