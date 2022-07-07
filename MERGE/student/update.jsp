@@ -10,10 +10,14 @@
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
 =======
+<<<<<<< HEAD
 <%@page import="student.StudentDAO"%>
 =======
 >>>>>>> 2ba68a5dc05d8ed88cee2693d9bac3a90206d24c
 >>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
+=======
+>>>>>>> 29b63a6 (student 폴더 올려보기)
+>>>>>>> c4f119a9e0fb0dfed61d2eb7a6cdd5a3bfad4093
 <%@page import="student.StudentDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -133,7 +137,11 @@
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
 =======
+<<<<<<< HEAD
 >>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
+=======
+>>>>>>> 29b63a6 (student 폴더 올려보기)
+>>>>>>> c4f119a9e0fb0dfed61d2eb7a6cdd5a3bfad4093
 		background: #aaa;
 		
 	}
@@ -200,7 +208,11 @@
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
 =======
+<<<<<<< HEAD
 >>>>>>> 2ba68a5dc05d8ed88cee2693d9bac3a90206d24c
 >>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
+=======
+>>>>>>> 29b63a6 (student 폴더 올려보기)
+>>>>>>> c4f119a9e0fb0dfed61d2eb7a6cdd5a3bfad4093
 </body>
 </html>
