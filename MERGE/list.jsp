@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <%@page import="customer.CustomerDTO"%>
 <%@page import="java.util.List"%>
 =======
@@ -13,6 +14,10 @@
 <%@page import="customer.CustomerDTO"%>
 <%@page import="java.util.List"%>
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+<%@page import="customer.CustomerDTO"%>
+<%@page import="java.util.List"%>
+>>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
@@ -26,10 +31,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+>>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
 	<%@ include file="/include/header.jsp"%>
 		<h1>고객관리 모듈</h1>
 
@@ -66,12 +74,15 @@
 	<%@ include file="/include/footer.jsp"%>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/jsy
 =======
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+>>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
 	<h1> JSTL 사용</h1>
 	<p>JSP 개발을 좀더 편하고 단순화하기 위한 태그 library(JSP Standard Tag Library)</p>
 	<h3>CORE(jstl/core)</h3>

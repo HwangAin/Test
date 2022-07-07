@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <%@page import="student.StudentDAO"%>
@@ -8,6 +9,11 @@
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+<%@page import="student.StudentDAO"%>
+=======
+>>>>>>> 2ba68a5dc05d8ed88cee2693d9bac3a90206d24c
+>>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
 <%@page import="student.StudentDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -20,8 +26,11 @@
 	td{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
 		background-color: gray;
 		color : black;
 	}
@@ -119,9 +128,12 @@
 	
 	<%@ include file="/include/footer.jsp"%>	
 =======
+<<<<<<< HEAD
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+>>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
 		background: #aaa;
 		
 	}
@@ -181,10 +193,14 @@
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2ba68a5dc05d8ed88cee2693d9bac3a90206d24c
 >>>>>>> hai
 =======
 >>>>>>> d77329da06ad9baf7c715f993900f91a0ae9a580
+=======
+>>>>>>> 2ba68a5dc05d8ed88cee2693d9bac3a90206d24c
+>>>>>>> bae99f2ea58e2ed47ca2b3f8e2058796ed1420ff
 </body>
 </html>
