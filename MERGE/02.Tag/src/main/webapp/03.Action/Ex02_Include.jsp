@@ -7,11 +7,23 @@
 <title>Insert title here</title>
 </head>
 <body>
+<<<<<<< HEAD
 <!-- 인클루드 태그안에서 param을 전달 가능하다(매개변수) -->
 	<jsp:include page="Ex02_Header.jsp">
 		<jsp:param value="HAI" name="name"/>
 	</jsp:include>
 	<h1>JSP 인클루드 시키기</h1>
 	<jsp:include page="Ex02_Footer.jsp"></jsp:include>
+=======
+<!-- 인클루드 태그안에서 param을 전달가능하다(매개변수)  -->
+	<jsp:include page="Ex02_Header.jsp">
+		<jsp:param value="JSY" name="name"/>
+		
+	</jsp:include>
+	<h1>JSP인클루드 시키기</h1>
+	<jsp:include page="Ex02_footer.jsp">
+		<jsp:param value="JSY" name="name"/>
+	</jsp:include>
+>>>>>>> 2e45b32c9431fb128ebb41136b045b12faec7562
 </body>
 </html>

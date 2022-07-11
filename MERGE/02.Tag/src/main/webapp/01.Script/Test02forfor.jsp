@@ -11,9 +11,9 @@ h1:nth-child(3)  {
 }
 
 </style>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>구구단 출력 1</h1>
 <table style="border: 1px solid black;">
 	<%int g=0;
 	%>	<% 
@@ -42,40 +42,11 @@ h1:nth-child(3)  {
 		</tr>
 	<%}%>
 	
-</table>
-
-	<h1>구구단 출력 3</h1>
-<table style="border: 1px solid black;">
-	<%int g3=0;
-	%>	<% 
-	for(int i = 2; i <=9; i++){%>
 	
-	<% if(i % 2 == 0 ){%>
-	<tr style="background-color: blue;">
-	<%}else {%>
-	<tr style="background-color: red;">
-	<%}%>
-		<%for(int j = 1; j <= 9; j++){
-			g3 =i * j;%>
-			<td style="border: 1px solid black;"><%=i %>*<%=j %>=<%=g3%></td>
-			
-		<%}%>	
-		</tr>
-		
-	<%}%>
 	
-</table>
-	<table style="border: 1px solid black;">
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-		</tr>
 	</table>
+	
+	
+	
 </body>
 </html>
