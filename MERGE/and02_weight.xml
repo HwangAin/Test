@@ -7,12 +7,18 @@
     >
 <!-- attr : weight 일정한 비율로 어느정도의 공간을 차지할 것인지를 지정하는 속성-->
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#E91E63" />
+        android:background="#5FD4F8" />
+        
+   <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#BB5FF8" />
+
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
