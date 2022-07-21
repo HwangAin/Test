@@ -27,7 +27,7 @@
             <!-- 스크롤뷰 -->
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
                 <!-- 좌측 메뉴 -->
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -35,6 +35,7 @@
 
                     <LinearLayout
                         android:layout_width="0dp"
+                        android:paddingTop="20dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
                         android:orientation="vertical"
@@ -43,10 +44,10 @@
 
                         <ImageView
                             android:id="@+id/img_1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
 
-                            android:src="@mipmap/ic_dog" />
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_1"
@@ -105,11 +106,11 @@
 
                         <ImageView
                             android:id="@+id/img_3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@mipmap/ic_dog" />
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_3"
@@ -169,10 +170,11 @@
 
                         <ImageView
                             android:id="@+id/img_5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginTop="20dp"
-                            android:src="@mipmap/ic_dog" />
+
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_5"
@@ -229,10 +231,11 @@
 
                         <ImageView
                             android:id="@+id/img_7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginTop="20dp"
-                            android:src="@mipmap/ic_dog" />
+
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_7"
@@ -300,9 +303,11 @@
 
                         <ImageView
                             android:id="@+id/img_2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="음료수 이미지" />
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_2"
@@ -359,10 +364,11 @@
 
                         <ImageView
                             android:id="@+id/img_4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginTop="20dp"
-                            android:src="음료수 이미지" />
+
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_4"
@@ -419,11 +425,11 @@
 
                         <ImageView
                             android:id="@+id/img_6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@mipmap/ic_dog" />
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_6"
@@ -480,10 +486,11 @@
 
                         <ImageView
                             android:id="@+id/img_8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_marginTop="20dp"
-                            android:src="음료수 이미지" />
+
+                            android:src="@drawable/img1" />
 
                         <TextView
                             android:id="@+id/pdt_8"
@@ -628,51 +635,56 @@
 
                     <ImageView
                         android:id="@+id/img_1_1"
-                        android:src="선택한이미지"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:visibility="invisible" />
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_2"
-                        android:src="선택한이미지"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_3"
-                        android:src="선택한이미지"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_4"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_5"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_6"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_7"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_8"
+                        android:src="@drawable/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
