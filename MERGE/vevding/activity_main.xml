@@ -27,7 +27,7 @@
             <!-- 스크롤뷰 -->
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
                 <!-- 좌측 메뉴 -->
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -45,7 +45,8 @@
                             android:id="@+id/img_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="음료수이미지" />
+
+                            android:src="@mipmap/ic_dog" />
 
                         <TextView
                             android:id="@+id/pdt_1"
@@ -69,7 +70,13 @@
                                 android:id="@+id/cost_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
+
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -85,11 +92,13 @@
                                 android:text="수량 : " />
 
                             <TextView
+                                android:id="@+id/qty_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
                         <Button
+                            android:id="@+id/btn_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="주문하기"/>
@@ -99,7 +108,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:src="음료수 이미지" />
+
+                            android:src="@mipmap/ic_dog" />
 
                         <TextView
                             android:id="@+id/pdt_3"
@@ -123,7 +133,11 @@
                                 android:id="@+id/cost_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -141,21 +155,24 @@
                                 />
 
                             <TextView
+                                android:id="@+id/qty_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
+
                         <Button
+                            android:id="@+id/btn_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="주문하기"/>
+                            android:text="주문하기" />
 
                         <ImageView
                             android:id="@+id/img_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:src="음료수 이미지" />
+                            android:src="@mipmap/ic_dog" />
 
                         <TextView
                             android:id="@+id/pdt_5"
@@ -179,7 +196,11 @@
                                 android:id="@+id/cost_5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -195,11 +216,13 @@
                                 android:text="수량 : " />
 
                             <TextView
+                                android:id="@+id/qty_5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
                         <Button
+                            android:id="@+id/btn_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="주문하기"/>
@@ -209,7 +232,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:src="음료수 이미지" />
+                            android:src="@mipmap/ic_dog" />
 
                         <TextView
                             android:id="@+id/pdt_7"
@@ -233,7 +256,11 @@
                                 android:id="@+id/cost_7"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -249,11 +276,13 @@
                                 android:text="수량 : " />
 
                             <TextView
+                                android:id="@+id/qty_7"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
                         <Button
+                            android:id="@+id/btn_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="주문하기"/>
@@ -297,7 +326,11 @@
                                 android:id="@+id/cost_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -313,11 +346,13 @@
                                 android:text="수량 : " />
 
                             <TextView
+                                android:id="@+id/qty_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
                         <Button
+                            android:id="@+id/btn_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="주문하기"/>
@@ -351,7 +386,11 @@
                                 android:id="@+id/cost_4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -367,11 +406,13 @@
                                 android:text="수량 : " />
 
                             <TextView
+                                android:id="@+id/qty_4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
                         <Button
+                            android:id="@+id/btn_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="주문하기"/>
@@ -381,7 +422,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:src="음료수 이미지" />
+
+                            android:src="@mipmap/ic_dog" />
 
                         <TextView
                             android:id="@+id/pdt_6"
@@ -405,7 +447,11 @@
                                 android:id="@+id/cost_6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -421,11 +467,13 @@
                                 android:text="수량 : " />
 
                             <TextView
+                                android:id="@+id/qty_6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
                         <Button
+                            android:id="@+id/btn_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="주문하기"/>
@@ -459,7 +507,11 @@
                                 android:id="@+id/cost_8"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800원" />
+                                android:text="800" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="원" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -475,11 +527,13 @@
                                 android:text="수량 : " />
 
                             <TextView
+                                android:id="@+id/qty_8"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="20" />
                         </LinearLayout>
                         <Button
+                            android:id="@+id/btn_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="주문하기"/>
@@ -493,10 +547,10 @@
         <!-- 우측 메뉴 -->
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="4"
             android:orientation="vertical"
-
+            android:gravity="center"
             >
             <!-- 주문내역 -->
             <TextView
@@ -504,25 +558,39 @@
                 android:layout_height="wrap_content"
                 android:text="주문 내역"
                 android:textSize="20dp"
+                android:gravity="center"
                 />
 
             <EditText
+                android:id="@+id/m_1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="금액을 입력하세요."
                  />
 
             <Button
+                android:id="@+id/btn_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="금액입력"
                 android:textSize="10dp" />
 
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="잔액"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/blc"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:gravity="center"
                 >
 
                 <TextView
@@ -532,10 +600,19 @@
                     />
 
                 <TextView
+                    android:id="@+id/cost_total"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text=""
                     />
             </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_10"
+                android:text="결제하기"/>
+
 
             <ScrollView
                 android:layout_width="match_parent"
