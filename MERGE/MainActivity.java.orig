@@ -1,13 +1,9 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 package com.example.test01;
 =======
 package com.example.test01_layout;
->>>>>>> 78d9f272fbb9fecf8db6fe85789716bf60a3ddb3
+>>>>>>> 09e5a49a2de543024a2f5837b437b1f11cf51f27
 
-=======
-package com.example.test01;
->>>>>>> 44b86729b81d3103cad7f71b897783046a973281
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -15,16 +11,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 44b86729b81d3103cad7f71b897783046a973281
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     Button img_btn1, img_btn2;
     ImageView img_dog1, img_dog2, iv_dog1, iv_dog2;
     TextView tv_text;
-<<<<<<< HEAD
 =======
 
 public class MainActivity extends AppCompatActivity {
@@ -34,18 +26,13 @@ public class MainActivity extends AppCompatActivity {
     int cnt = 0;
     int cnt1 = 0;
 
->>>>>>> 78d9f272fbb9fecf8db6fe85789716bf60a3ddb3
-=======
->>>>>>> 44b86729b81d3103cad7f71b897783046a973281
+>>>>>>> 09e5a49a2de543024a2f5837b437b1f11cf51f27
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 44b86729b81d3103cad7f71b897783046a973281
         img_btn1 = findViewById(R.id.img_btn1);
         img_btn2 = findViewById(R.id.img_btn2);
         img_dog1 = findViewById(R.id.img_dog1);
@@ -89,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-<<<<<<< HEAD
 =======
         btn_img1 = findViewById(R.id.btn_img1);
         btn_img2 = findViewById(R.id.btn_img2);
@@ -139,7 +125,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
->>>>>>> 78d9f272fbb9fecf8db6fe85789716bf60a3ddb3
-=======
->>>>>>> 44b86729b81d3103cad7f71b897783046a973281
+>>>>>>> 09e5a49a2de543024a2f5837b437b1f11cf51f27
 }
