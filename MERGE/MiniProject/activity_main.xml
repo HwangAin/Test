@@ -590,10 +590,10 @@
                 />
 
             <TextView
+                android:id="@+id/blc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""
-                android:id="@+id/blc"/>
+                android:text="0" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -606,13 +606,13 @@
                     android:text="총 결제금액"
                     />
 
-                <TextView
-                    android:id="@+id/cost_total"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    />
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/cost_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
 
             <Button
                 android:layout_width="wrap_content"

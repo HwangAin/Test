@@ -12,9 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="center"
-        android:padding="20dp" />
+        android:src="@drawable/logo"
+        android:padding="10dp" />
     <!-- 전체 메뉴 -->
     <LinearLayout
+        android:background="#EFEEE8"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -47,13 +49,13 @@
                             android:layout_width="50dp"
                             android:layout_height="50dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/cider" />
 
                         <TextView
                             android:id="@+id/pdt_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="칠성사이다" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -102,6 +104,7 @@
                             android:id="@+id/btn_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:text="주문하기"/>
 
                         <ImageView
@@ -110,13 +113,13 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/fanta" />
 
                         <TextView
                             android:id="@+id/pdt_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="환타오렌지" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -165,6 +168,7 @@
                         <Button
                             android:id="@+id/btn_3"
                             android:layout_width="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:layout_height="wrap_content"
                             android:text="주문하기" />
 
@@ -174,13 +178,13 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/milkiss" />
 
                         <TextView
                             android:id="@+id/pdt_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="밀키스" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -227,6 +231,7 @@
                             android:id="@+id/btn_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:text="주문하기"/>
 
                         <ImageView
@@ -235,13 +240,13 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/powerade" />
 
                         <TextView
                             android:id="@+id/pdt_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="파워에이드" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -259,7 +264,7 @@
                                 android:id="@+id/cost_7"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800" />
+                                android:text="1300" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -288,6 +293,7 @@
                             android:id="@+id/btn_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:text="주문하기"/>
 
                     </LinearLayout>
@@ -307,13 +313,13 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/coke" />
 
                         <TextView
                             android:id="@+id/pdt_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="코카콜라" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -331,7 +337,7 @@
                                 android:id="@+id/cost_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800" />
+                                android:text="1500" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -360,6 +366,7 @@
                             android:id="@+id/btn_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:text="주문하기"/>
 
                         <ImageView
@@ -368,13 +375,13 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/letsb" />
 
                         <TextView
                             android:id="@+id/pdt_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="레쓰비" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -392,7 +399,7 @@
                                 android:id="@+id/cost_4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800" />
+                                android:text="700" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -421,6 +428,7 @@
                             android:id="@+id/btn_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:text="주문하기"/>
 
                         <ImageView
@@ -429,13 +437,13 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/oranc" />
 
                         <TextView
                             android:id="@+id/pdt_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="오란씨" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -453,7 +461,7 @@
                                 android:id="@+id/cost_6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800" />
+                                android:text="700" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -482,6 +490,7 @@
                             android:id="@+id/btn_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:text="주문하기"/>
 
                         <ImageView
@@ -490,13 +499,13 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="20dp"
 
-                            android:src="@drawable/img1" />
+                            android:src="@drawable/sprite" />
 
                         <TextView
                             android:id="@+id/pdt_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="음료수이름" />
+                            android:text="스프라이트" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -514,7 +523,7 @@
                                 android:id="@+id/cost_8"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="800" />
+                                android:text="1000" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -543,6 +552,7 @@
                             android:id="@+id/btn_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/yellow"
                             android:text="주문하기"/>
 
                     </LinearLayout>
@@ -573,27 +583,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="금액을 입력하세요."
-                 />
+                />
 
             <Button
                 android:id="@+id/btn_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="금액입력"
+                android:backgroundTint="@color/yellow"
                 android:textSize="10dp" />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="잔액"
+                android:text="입금액"
                 />
 
             <TextView
+                android:id="@+id/blc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""
-                android:id="@+id/blc"/>
+                android:text="0" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -606,18 +617,19 @@
                     android:text="총 결제금액"
                     />
 
-                <TextView
-                    android:id="@+id/cost_total"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    />
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/cost_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn_10"
+                android:backgroundTint="@color/yellow"
                 android:text="결제하기"/>
 
 
@@ -633,58 +645,64 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="주문목록"/>
+
                     <ImageView
                         android:id="@+id/img_1_1"
-                        android:src="@drawable/img1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:src="@drawable/cider"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_2"
-                        android:src="@drawable/img1"
+                        android:src="@drawable/coke"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_3"
-                        android:src="@drawable/img1"
+                        android:src="@drawable/fanta"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_4"
-                        android:src="@drawable/img1"
+                        android:src="@drawable/letsb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_5"
-                        android:src="@drawable/img1"
+                        android:src="@drawable/milkiss"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_6"
-                        android:src="@drawable/img1"
+                        android:src="@drawable/oranc"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_7"
-                        android:src="@drawable/img1"
+                        android:src="@drawable/powerade"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/img_1_8"
-                        android:src="@drawable/img1"
+                        android:src="@drawable/sprite"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
