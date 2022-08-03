@@ -10,7 +10,7 @@ public class Exam01 {
 	public static void main(String[] args) {
 		String[] strs = new String[4];
 		for(int i = 0; i < strs.length; i++) {
-			strs[i] = "이름"+(i+1);
+			strs[i] = "배열["+i+"] 값 : 이름"+(i+1);
 			System.out.println(strs[i].toString());
 		}
 		
